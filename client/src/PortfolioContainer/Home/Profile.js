@@ -7,6 +7,7 @@ export default function Profile() {
        <div className='profile-parent'>
             <div className='profile-details'>
              <div className='colz'>
+               <div className='colz-icon'>
                 <a href="https://www.facebook.com/king.kevinkonvict">
                     <i className='fa fa-facebook-square'></i>
                 </a>
@@ -15,18 +16,18 @@ export default function Profile() {
                     <i className='fa fa-instagram'></i>
                 </a>
                 <a href="https://github.com/kevinkalenga">
-                    <i class="fa-brands fa-github"></i>
+                    <i className="fa-brands fa-github"></i>
                 </a>
                 <a href="#">
                     <i className='fa fa-twitter'></i>
                 </a>
-               
+               </div>
              </div>
             </div>
             <div className='profile-details-name'>
                <span className='primary-text'>
                   {" "}
-                  Bonjour, Je m'appel <span className='highlighted-text'>Kevin</span>
+                  Bonjour, je m'appel <span className='highlighted-text'>Kevin</span>
                </span>
             </div>
             <div className='profile-details-role'>
@@ -49,7 +50,7 @@ export default function Profile() {
                         1000,
                         "Java/Angular ☕🅰️",
                         1000,
-                        "DevOps / Docker 🐳⚙️",
+                        "Aws/Devops 🐳⚙️",
                         1000,
                      ]}
                      />
@@ -64,9 +65,14 @@ export default function Profile() {
                   {""}
                   Embauchez-Moi{" "}
                </button>
-               <a href='cv.pdf' download="kevin cv.pdf">
+               <a href='https://ton-bucket.s3.amazonaws.com/kevin-cv.pdf' download>
                   <button className="btn highlighted-btn">Obtenir un CV</button>
                </a>
+            </div>
+            <div className='profile-picture'>
+               <div className='profile-details-name'>
+
+               </div>
             </div>
        </div>
     </div>
