@@ -1,7 +1,6 @@
 
 import './App.css';
-import Profile from './PortfolioContainer/Home/Profile';
-import Footer from './PortfolioContainer/Home/Footer/Footer';
+import Home from './PortfolioContainer/Home/Home'
 
 
 function App() {
@@ -10,8 +9,7 @@ function App() {
   
   return (
     <div className="App">
-       <Profile />
-       <Footer />
+       <Home />
     </div>
   );
 }

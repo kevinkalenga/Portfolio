@@ -58,7 +58,7 @@ export default function Profile() {
                     1000,
                     "Laravel/Symfony 🐘",
                     1000,
-                    "React/Redux ⚛️🔄",
+                    "React/Redux Toolkit ⚛️🔄",
                     1000,
                     "Java/Angular ☕🅰️",
                     1000,
